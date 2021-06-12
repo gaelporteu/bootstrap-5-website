@@ -1,3 +1,13 @@
+body {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 50px;
+}
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
