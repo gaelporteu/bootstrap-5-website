@@ -6,6 +6,11 @@ body::before {
     content: "";
     display: block;
     height: 50px;
+    background: #212529;
+}
+
+.transparent {
+    background: rgba(0,0,0,0.8) !important;
 }
 
 @media(min-width: 768px) {
